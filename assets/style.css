@@ -5,8 +5,8 @@ html, body{
 }
 
 .fullScreen{
-    min-height: 80vh!important;
-    height: 80vh!important;
+    min-height: 100vh!important;
+    max-height: fit-content!important;
 }
 
 /* @font-face{
@@ -16,102 +16,20 @@ html, body{
 .openSans {
     font-family: 'Open Sans', sans-serif;
 }
+.rosa{
+    color:#FF00A8;
+}
+.pinkBg{
+    background: #FF00A8!important;
+}
+a{
+    color: #FF00A8!important;
+}
 .logo {
     font-family: 'Open Sans', sans-serif;
+    color: #FF00A8!important;
 }
-.odsBox{
-    text-align: left;
-    height: 200px!important;
-    width: 200px!important;
-    background: inherit!important;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.ods4{
-    border:3px #c31f33 solid!important;
-    color: #c31f33!important;
-    transition: 0.7s;
-}
-.ods4:hover{
-    background-color: #c31f33!important;
-    color: #ffffff!important;
-    cursor: pointer;
-}
-.ods10{
-    border:3px #e11484 solid!important;
-    color: #e11484!important;
-    transition: 0.7s;
-}
-.ods10:hover{
-    background-color: #e11484!important;
-    color: #ffffff!important;
-    cursor: pointer;
-}
-.ods11{
-    border:3px #f99d26 solid!important;
-    color: #f99d26!important;
-    transition: 0.7s;
-}
-.ods11:hover{
-    background-color: #f99d26!important;
-    color: #ffffff!important;
-    cursor: pointer;
-}
-.ods12{
-    border:3px #cf8d2a solid!important;
-    color: #cf8d2a!important;
-    transition: 0.7s;
-}
-.ods12:hover{
-    background-color: #cf8d2a!important;
-    color: #ffffff!important;
-    cursor: pointer;
-}
-.bg-inherit{
-    background-color: inherit!important;
-}
-.teamImage{
-    border-radius: 50%;
-    width: 150px!important;
-}
-.imgBadge{
-    width: 50px!important;
-}
-.scoolitButton{
-    background-color: #0a6347!important;
-    color:#ffffff!important;
-    transition: 0.5s;
-
-}
-.scoolitButton:hover{
-    background-color: #1e8866!important;
-}
-
 .active{
-    background-color: #0a6347!important;
+    background-color: #FF00A8!important;
     color:#ffffff!important;
-}
-.scroll{
-    padding-top: 70px!important;
-}
-.greenBg{
-    background-color: #0a6347!important;
-}
-.green{
-    color:#0a6347!important;
-}
-.greenBgMint{
-    background-color: #f7fffb!important;
-}
-.border-mint{
-    border-color:#f7fffb!important;
-}
-.imgLogo{
-    width: 150px!important;
-}
-@media (max-width: 700px) { 
-    .imgLogo{
-        width: 70px!important;
-    }
 }

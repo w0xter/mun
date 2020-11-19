@@ -16,20 +16,34 @@ html, body{
 .openSans {
     font-family: 'Open Sans', sans-serif;
 }
-.rosa{
-    color:#FF00A8;
+.pColor{
+    color: #FE5959!important;
+}
+.orange{
+    color: #FE5959!important;
+}
+.pink{
+    color:#FF00A8!important;
 }
 .pinkBg{
     background: #FF00A8!important;
 }
 a{
-    color: #FF00A8!important;
+    color: inherit!important;
 }
 .logo {
     font-family: 'Open Sans', sans-serif;
+    color: #FE5959!important;
+}
+.pinkLogo {
+    font-family: 'Open Sans', sans-serif;
     color: #FF00A8!important;
 }
-.active{
+.pinkPills > .active {
     background-color: #FF00A8!important;
+    color:#ffffff!important;
+}
+.orangePills > .active{
+    background-color: #FE5959!important;
     color:#ffffff!important;
 }
